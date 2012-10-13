@@ -1,0 +1,27 @@
+
+arduino_serial_shared_memory was Written 2012-10-12 by Matt Wortley.
+	It allows you to use a simple serial protocol to read and write
+	blocks of memory in the arduino using hexadecimal ascii for the
+	address and the data.  This keeps it from getting poluted by
+	other characters and completely agnostic of the data type and
+	location it is sending it to or getting it from.  I use python
+	to send an receive the data from the arduino.  It is currently
+	used in my hot air heating solar panel system to post the 
+	IP address of a rasberry Pi on the LCD connected to my arduino.
+	It also harvests temperature data from the arduino and appends it as
+	records to a CSV file.  Works well for me, YMMV.
+	
+This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
