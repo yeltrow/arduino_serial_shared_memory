@@ -1,5 +1,4 @@
-
-arduino_serial_shared_memory was Written 2012-10-12 by Matt Wortley.
+produce_consume_hex was Written 2012-10-12 by Matt Wortley.
 	It allows you to use a simple serial protocol to read and write
 	blocks of memory in the arduino using hexadecimal ascii for the
 	address and the data.  This keeps it from getting poluted by
